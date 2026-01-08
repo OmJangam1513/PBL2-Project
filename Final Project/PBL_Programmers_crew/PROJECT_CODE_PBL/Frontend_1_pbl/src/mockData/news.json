@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": "n1",
+      "title": "New Feature Release",
+      "content": "We are excited to announce the release of our new feature!",
+      "date": "2025-04-14"
+    },
+    {
+      "id": "n2",
+      "title": "Maintenance Update",
+      "content": "Scheduled maintenance will occur this weekend.",
+      "date": "2025-04-13"
+    }
+  ]
+}

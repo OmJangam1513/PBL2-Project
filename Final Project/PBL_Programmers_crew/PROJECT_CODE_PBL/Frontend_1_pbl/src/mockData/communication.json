@@ -1,0 +1,49 @@
+{
+  "meetings": [
+    {
+      "id": "mt1",
+      "title": "Weekly Team project progress analysis",
+      "date": "2023-11-17",
+      "time": "10:00 AM - 11:00 AM",
+      "location": "Conference Room A",
+      "organizer": "Amit Gupta",
+      "attendees": ["Yash Sharma", "Rohan Sharma"],
+      "description": "Regular weekly team meeting to discuss progress, blockers, and upcoming tasks.",
+      "status": "Scheduled"
+    },
+    {
+      "id": "mt2",
+      "title": "E-commerce Platform projct flow meeting",
+      "date": "2023-11-20",
+      "time": "2:00 PM - 4:00 PM",
+      "location": "Conference Room B",
+      "organizer": "Rohan Sharma",
+      "attendees": ["Amit Gupta", "Rajat Gupta", "Yash Sharma"],
+      "description": "Meeting regarding the new e-commerce platform project. We'll discuss project scope, timeline, and resource allocation.",
+      "status": "Pending"
+    }
+  ],
+  "employees": [
+    {
+      "id": "2",
+      "name": "Yash Sharma",
+      "position": "Employee",
+      "department": "Engineering",
+      "email": "Yashsharma@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Rohan Sharma",
+      "position": "Project Head",
+      "department": "Projct Engineering",
+      "email": "Rohansharma@example.com"
+    },
+    {
+      "id": "4",
+      "name": "Robert Johnson",
+      "position": "Senior Developer",
+      "department": "Engineering",
+      "email": "robert.johnson@example.com"
+    }
+  ]
+}

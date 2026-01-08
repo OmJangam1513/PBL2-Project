@@ -1,0 +1,44 @@
+{
+  "id": "101",
+  "name": "IT Department",
+  "slogan": "Building and maintaining the software technology of the department.",
+  "description": "The IT Department is responsible for developing and maintaining all software products and internal tools. We focus on innovation, quality development, and efficiency in all our projects.",
+  "logo": null,
+  "employeeCount": 24,
+  "projectCount": 8,
+  "completedProjects": 15,
+  "mission": "To create innovative software solutions that solve real-world problems and exceed customer expectations.",
+  "vision": "To be recognized as the industry leader in software development, known for our technical excellence and customer-focused approach.",
+  "goals": [
+    "Deliver all projects on time and within budget",
+    "Maintain a high level of code quality and test coverage",
+    "Foster a culture of continuous learning and innovation",
+    "Improve team collaboration and communication"
+  ],
+  "achievements": [
+    {
+      "title": "Successfully migrated legacy systems to cloud infrastructure",
+      "date": "2023-06",
+      "description": "Completed the migration of all legacy systems to AWS, resulting in 40% cost reduction and improved performance."
+    },
+    {
+      "title": "Launched mobile application with 100,000+ downloads",
+      "date": "2022-11",
+      "description": "Developed and launched the company's first mobile application, which reached 100,000 downloads in the first month."
+    }
+  ],
+  "head": {
+    "name": "Amit Gupta",
+    "position": "Department Head",
+    "email": "Amitgupta@example.com",
+    "phone": "1234567890"
+  },
+  "location": {
+    "building": "Main Campus",
+    "floor": "3rd Floor",
+    "room": "Room 305"
+  },
+  "contactEmail": "engineering@example.com",
+  "contactPhone": "1234567890"
+}
+

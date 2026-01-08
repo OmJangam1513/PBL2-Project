@@ -1,0 +1,12 @@
+{
+    "profileSettings": {
+      "goToProfile": true
+    },
+    "loginSettings": {
+      "changePassword": true
+    },
+    "helpSettings": {
+      "documentation": true
+    }
+  }
+  

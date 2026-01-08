@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "id": "n1",
+      "subject": "New Project Assignment",
+      "preview": "You have been assigned to a new project: E-commerce Platform",
+      "message": "Dear Rohan Sharma,\n\nYou have been given the position of Project Manager of the E-commerce Platform tech management project. Please review the project details and schedule a meeting with your team.\n\nRegards,\nManagement",
+      "sentTime": "2025-04-05 09:30 AM",
+      "read": false,
+      "domain": "Project Management",
+      "project": "E-commerce Platform tech management",
+      "submodule": "Team Assignment",
+      "from": "Amit Gupta (Department Head)",
+      "to": "Rohan Sharma",
+      "requiredRole": "department_head"
+    },
+    {
+      "id": "n2",
+      "subject": "Meeting Reminder",
+      "preview": "Reminder: Weekly Team meeting tomorrow at 09:45 AM",
+      "message": "This is a reminder that the Weekly Team meeting is scheduled for tomorrow at 10:00 AM in Conference Room A. Please prepare your status updates and be on time.",
+      "sentTime": "2025-05-10 04:15 PM",
+      "read": true,
+      "domain": "Meetings",
+      "project": "All Projects",
+      "submodule": "Team Sync",
+      "from": "System Notification",
+      "to": "All Team Members",
+      "requiredRole": "all"
+    },
+    {
+      "id": "n3",
+      "subject": "Budget Approval Required",
+      "preview": "Your approval is needed for the Database Migration project budget",
+      "message": "The Database Migration project requires additional budget allocation. Please review the attached proposal and approve or reject the request by end of day.",
+      "sentTime": "2025-05-11 11:20 AM",
+      "read": false,
+      "domain": "Finance",
+      "project": "Database Migration",
+      "submodule": "Budget Management",
+      "from": "Robert Johnson (Finance)",
+      "to": "Rohan Sharma",
+      "requiredRole": "department_head"
+    },
+    {
+      "id": "n4",
+      "subject": "System Maintenance",
+      "preview": "Scheduled system maintenance this weekend",
+      "message": "The project management system will be undergoing scheduled maintenance this weekend from Saturday 8:00 PM to Sunday 2:00 AM. During this time, the system will be unavailable. Please plan your work accordingly.",
+      "sentTime": "2025-05-15 03:45 PM",
+      "read": true,
+      "domain": "IT",
+      "project": "System Administration",
+      "submodule": "Maintenance",
+      "from": "IT Department",
+      "to": "All Users",
+      "requiredRole": "all"
+    }
+  ]
+}
+

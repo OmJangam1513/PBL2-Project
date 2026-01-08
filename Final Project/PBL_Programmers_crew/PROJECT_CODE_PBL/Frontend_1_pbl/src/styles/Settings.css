@@ -1,0 +1,127 @@
+/* Settings component styles */
+.settings-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.settings-container h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.settings-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.settings-section h3 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.setting-item {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.setting-item:last-child {
+  margin-bottom: 0;
+}
+
+.help-button,
+.password-button,
+.settings-button {
+  background-color: #f0f4f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.75rem 1.25rem;
+  margin-right: 0.75rem;
+  font-size: 0.95rem;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.help-button:hover,
+.password-button:hover,
+.settings-button:hover {
+  background-color: #e3f2fd;
+}
+
+/* Documentation section styling */
+.documentation-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.documentation-section h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.documentation-content {
+  margin-bottom: 2rem;
+}
+
+.documentation-content h4 {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.documentation-content p {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+/* FAQ styling */
+.faq-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.faq-item h5 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.faq-item p {
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .setting-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .help-button,
+  .password-button,
+  .settings-button {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}

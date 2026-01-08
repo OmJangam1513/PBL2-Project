@@ -1,0 +1,69 @@
+/* Enhanced styles for the Project Progress Chart */
+.project-progress-chart {
+  padding: 30px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-progress-chart:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-progress-chart h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #444;
+  text-align: center;
+  font-weight: 600;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.project-name {
+  flex: 1;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.progress-bar {
+  flex: 2;
+  height: 25px;
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress {
+  height: 100%;
+  background-color: #007bff;
+  transition: width 0.4s ease;
+  border-radius: 12px 0 0 12px;
+}
+
+.progress-bar:hover .progress {
+  background-color: #0056b3;
+}
+
+.progress-percentage {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Adjusted chart height for a smaller appearance */
+.chart-container {
+  height: auto; /* Allow height to adjust dynamically */
+  max-height: 300px; /* Set a smaller maximum height */
+  padding: 15px; /* Reduced padding to minimize height */
+}

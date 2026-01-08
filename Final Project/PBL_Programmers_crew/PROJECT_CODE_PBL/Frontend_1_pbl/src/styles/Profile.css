@@ -1,0 +1,353 @@
+/* Profile component styles */
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-container h2 {
+  margin-bottom: 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.edit-button,
+.save-button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.edit-button:hover,
+.save-button:hover {
+  background-color: #0055aa;
+}
+
+.cancel-button {
+  background-color: #f0f4f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cancel-button:hover {
+  background-color: #e3f2fd;
+}
+
+.profile-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.profile-section h3 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #444;
+  font-weight: 500;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+/* Profile image styling */
+.profile-image-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-image-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #e3f2fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-image-placeholder {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0066cc;
+}
+
+.profile-image-upload {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-button {
+  background-color: #f0f4f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: inline-block;
+  text-align: center;
+}
+
+.upload-button:hover {
+  background-color: #e3f2fd;
+}
+
+/* Profile details styling */
+.profile-details-container {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+.profile-field {
+  margin-bottom: 0.5rem;
+}
+
+.field-label {
+  font-weight: 500;
+  color: #666;
+  margin-right: 0.5rem;
+  min-width: 80px;
+  display: inline-block;
+}
+
+.field-value {
+  color: #333;
+}
+
+/* Form styling */
+.profile-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+/* Projects list styling */
+.projects-list {
+  list-style: none;
+  padding: 0;
+}
+
+.project-item {
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+  background-color: #fafafa;
+}
+
+.project-name {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.project-role,
+.project-status {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Experience list styling */
+.experience-list {
+  list-style: none;
+  padding: 0;
+}
+
+.experience-item {
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+  background-color: #fafafa;
+}
+
+.experience-position {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.experience-company {
+  font-weight: 500;
+  color: #0066cc;
+}
+
+.experience-duration {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.experience-description {
+  font-size: 0.9rem;
+}
+
+/* Add Experience Section */
+.add-experience-form {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.add-experience-form h4 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #444;
+  font-weight: 500;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.add-experience-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.add-experience-form .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.add-experience-form .form-group input,
+.add-experience-form .form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.add-experience-form .form-group textarea {
+  resize: vertical;
+}
+
+.add-experience-form .add-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-experience-form .add-button:hover {
+  background-color: #0055aa;
+}
+
+/* Skills styling */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  background-color: #e3f2fd;
+  color: #0066cc;
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  font-size: 0.8rem;
+}
+
+/* About section styling */
+.about-text {
+  line-height: 1.6;
+}
+
+/* Remove Button Styling */
+.remove-button {
+  background-color: #f0f4f8;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.remove-button:hover {
+  background-color: #e3f2fd;
+  color: #0066cc;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .profile-details-container {
+    flex-direction: column;
+  }
+
+  .profile-image-container {
+    margin: 0 auto 1rem auto;
+  }
+
+  .profile-image-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-image-upload {
+    margin-top: 1rem;
+  }
+}
+

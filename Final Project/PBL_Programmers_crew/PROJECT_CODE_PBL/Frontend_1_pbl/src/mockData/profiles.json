@@ -1,0 +1,148 @@
+{
+  "department_head": {
+    "personalDetails": {
+      "name": "Amit Gupta",
+      "email": "Amitgupta@example.com",
+      "phone": "1234567890",
+      "position": "Department Head",
+      "department": "Engineering",
+      "joinDate": "2020-01-15",
+      "profileImage": null
+    },
+    "projectsAssigned": [
+      {
+        "id": "p1",
+        "name": "Website Redesign",
+        "role": "Project Manager",
+        "status": "In Progress",
+        "deadline": "2023-12-31"
+      },
+      {
+        "id": "p2",
+        "name": "Mobile App Development",
+        "role": "Supervisor",
+        "status": "Planning",
+        "deadline": "2024-03-15"
+      }
+    ],
+    "pastExperience": [
+      {
+        "position": "Senior Developer",
+        "company": "Tech Software Solution",
+        "duration": "2015-2020",
+        "description": "Led a team of developers in creating enterprise software solutions."
+      },
+      {
+        "position": "Web Developer",
+        "company": "Digital Creations",
+        "duration": "2010-2015",
+        "description": "Developed and maintained client websites and web applications."
+      }
+    ],
+    "skills": [
+      "Project Management",
+      "Team Leadership",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "SQL",
+      "System Architecture"
+    ],
+    "about": "Experienced department head with over 10 years in software development. Passionate about creating efficient teams and delivering high-quality products on time and within budget."
+  },
+  "project_head": {
+    "personalDetails": {
+      "name": "Rohan Sharma",
+      "email": "Rohansharma@example.com",
+      "phone": "9876543210",
+      "position": "Project Head",
+      "department": "Project Engineering",
+      "joinDate": "2021-06-01",
+      "profileImage": null
+    },
+    "projectsAssigned": [
+      {
+        "id": "p3",
+        "name": "Database Migration",
+        "role": "Lead",
+        "status": "Completed",
+        "deadline": "2023-10-01"
+      },
+      {
+        "id": "p4",
+        "name": "API Integration",
+        "role": "Coordinator",
+        "status": "In Progress",
+        "deadline": "2024-06-30"
+      }
+    ],
+    "pastExperience": [
+      {
+        "position": "Software Engineer",
+        "company": "Innovative Tech Solutions",
+        "duration": "2017-2021",
+        "description": "Managed backend systems and coordinated with cross-functional teams."
+      },
+      {
+        "position": "Junior Developer",
+        "company": "Tech Software Solutions",
+        "duration": "2015-2017",
+        "description": "Developed APIs and maintained server-side applications for various projects."
+      }
+    ],
+    "skills": [
+      "Project Management",
+      "Team Leadership",
+      "Strategic Planning",
+      "Python",
+      "Django",
+      "REST APIs",
+      "Agile Methodologies"
+    ],
+    "about": "Dedicated project head with expertise in managing cross-functional teams and delivering projects on time."
+  },
+  "employee": {
+    "personalDetails": {
+      "name": "Yash Sharma",
+      "email": "Yashsharma@example.com",
+      "phone": "9182736455",
+      "position": "employee",
+      "department": "Design",
+      "joinDate": "2022-03-15",
+      "profileImage": null
+    },
+    "projectsAssigned": [
+      {
+        "id": "p5",
+        "name": "E-commerce Platform Redesign",
+        "role": "employee",
+        "status": "In Progress",
+        "deadline": "2024-09-01"
+      }
+    ],
+    "pastExperience": [
+      {
+        "position": "Junior Designer",
+        "company": "Creative Agency",
+        "duration": "2018-2020",
+        "description": "Worked on various client projects to design user-friendly interfaces."
+      },
+      {
+        "position": "Intern",
+        "company": "Tech Design Studio",
+        "duration": "2017-2018",
+        "description": "Assisted in creating wireframes and prototypes for client presentations."
+      }
+    ],
+    "skills": [
+      "UI/UX Design",
+      "Prototyping",
+      "Adobe XD",
+      "Figma",
+      "User Research",
+      "Wireframing"
+    ],
+    "about": "Creative UX designer with a passion for crafting intuitive user experiences."
+  }
+}
+
